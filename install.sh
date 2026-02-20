@@ -1,12 +1,12 @@
 #!/bin/bash
-# Install claude-create-session for Claude Code
+# Install harmonica-chat for Claude Code
 
 set -e
 
-REPO_URL="https://raw.githubusercontent.com/zhiganov/claude-create-session/main"
+REPO_URL="https://raw.githubusercontent.com/zhiganov/harmonica-chat/main"
 CLAUDE_DIR="$HOME/.claude"
 
-echo "Installing claude-create-session..."
+echo "Installing harmonica-chat..."
 
 # Create directories
 mkdir -p "$CLAUDE_DIR/commands"

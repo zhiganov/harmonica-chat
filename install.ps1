@@ -1,11 +1,11 @@
-# Install claude-create-session for Claude Code
+# Install harmonica-chat for Claude Code
 
 $ErrorActionPreference = "Stop"
 
-$RepoUrl = "https://raw.githubusercontent.com/zhiganov/claude-create-session/main"
+$RepoUrl = "https://raw.githubusercontent.com/zhiganov/harmonica-chat/main"
 $ClaudeDir = "$env:USERPROFILE\.claude"
 
-Write-Host "Installing claude-create-session..."
+Write-Host "Installing harmonica-chat..."
 
 # Create directories
 New-Item -ItemType Directory -Force -Path "$ClaudeDir\commands" | Out-Null

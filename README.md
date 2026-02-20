@@ -1,4 +1,4 @@
-# claude-create-session
+# harmonica-chat
 
 A slash command for [Claude Code](https://claude.ai/code) that creates [Harmonica](https://harmonica.chat) deliberation sessions from the terminal.
 
@@ -11,13 +11,13 @@ A slash command for [Claude Code](https://claude.ai/code) that creates [Harmonic
 ### Quick Install (bash)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zhiganov/claude-create-session/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/zhiganov/harmonica-chat/main/install.sh | bash
 ```
 
 ### Quick Install (PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/zhiganov/claude-create-session/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/zhiganov/harmonica-chat/main/install.ps1 | iex
 ```
 
 ### Manual Installation
