@@ -2,9 +2,7 @@
 
 A slash command for [Claude Code](https://claude.ai/code) that creates [Harmonica](https://harmonica.chat) deliberation sessions from the terminal.
 
-## What it does
-
-`/create-session` calls the Harmonica API to create a new session and returns a shareable join URL. Supports all session options: topic, goal, context, custom prompts, templates, and cross-pollination.
+[Harmonica](https://harmonica.chat) is a structured deliberation platform where groups coordinate through AI-facilitated async conversations. You create a session with a topic and goal, share a link with participants, and each person has a private 1:1 conversation with an AI facilitator. Responses are then synthesized into actionable insights. [Learn more](https://docs.harmonica.chat).
 
 ## Installation
 
@@ -26,22 +24,32 @@ Copy `create-session.md` to `~/.claude/commands/create-session.md`
 
 ## Setup
 
-You need a Harmonica API key:
+### 1. Create a Harmonica account
 
-1. Go to [app.harmonica.chat](https://app.harmonica.chat) > Settings > API Keys
-2. Generate a key (starts with `hm_live_`)
-3. Add to your shell profile:
+Sign up at [app.harmonica.chat](https://app.harmonica.chat) (free).
+
+### 2. Generate an API key
+
+Go to your [Profile page](https://app.harmonica.chat/profile) > **API Keys** tab > **Generate API Key**.
+
+Your key starts with `hm_live_`. Copy it — it's only shown once.
+
+### 3. Set the environment variable
 
 ```bash
-# ~/.bashrc or ~/.zshrc
+# Add to ~/.bashrc, ~/.zshrc, or equivalent
 export HARMONICA_API_KEY="hm_live_your_key_here"
 ```
+
+Restart your terminal or run `source ~/.bashrc`.
 
 ## Usage
 
 ```
 /create-session "Session Topic" --goal "What this session should achieve"
 ```
+
+This creates a session and returns a join URL you can share with participants.
 
 ### Options
 
@@ -76,7 +84,7 @@ export HARMONICA_API_KEY="hm_live_your_key_here"
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `HARMONICA_API_KEY` | (required) | Your API key |
+| `HARMONICA_API_KEY` | (required) | Your API key ([get one here](https://app.harmonica.chat/profile)) |
 | `HARMONICA_BASE_URL` | `https://app.harmonica.chat` | API base URL (for self-hosted instances) |
 
 ## API Reference

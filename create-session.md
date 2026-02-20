@@ -20,8 +20,8 @@ If it's not set (empty output), tell the user:
 
 > **HARMONICA_API_KEY not set.** To use this command:
 >
-> 1. Go to your [Harmonica dashboard](https://app.harmonica.chat) → Settings → API Keys
-> 2. Generate an API key (starts with `hm_live_`)
+> 1. [Sign up for Harmonica](https://app.harmonica.chat) if you don't have an account (free)
+> 2. Go to your [Profile page](https://app.harmonica.chat/profile) → **API Keys** tab → **Generate API Key**
 > 3. Add to your shell profile: `export HARMONICA_API_KEY="hm_live_..."`
 > 4. Restart your terminal or run `source ~/.bashrc`
 
