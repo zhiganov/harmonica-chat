@@ -87,6 +87,10 @@ This creates a session and returns a join URL you can share with participants.
 | `HARMONICA_API_KEY` | (required) | Your API key ([get one here](https://app.harmonica.chat/profile)) |
 | `HARMONICA_BASE_URL` | `https://app.harmonica.chat` | API base URL (for self-hosted instances) |
 
+## See Also
+
+- **[harmonica-mcp](https://github.com/harmonicabot/harmonica-mcp)** — MCP server for full session management (create, list, query, read responses and summaries). Install with `npx harmonica-mcp`.
+
 ## API Reference
 
 This command wraps `POST /api/v1/sessions`. See the [Harmonica API docs](https://docs.harmonica.chat/api-reference) for full details.
