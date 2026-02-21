@@ -12,11 +12,11 @@ echo "Installing harmonica-chat..."
 mkdir -p "$CLAUDE_DIR/commands"
 
 # Download command file
-curl -fsSL "$REPO_URL/create-session.md" -o "$CLAUDE_DIR/commands/create-session.md"
-echo "Installed create-session.md -> ~/.claude/commands/"
+curl -fsSL "$REPO_URL/harmonica-chat.md" -o "$CLAUDE_DIR/commands/harmonica-chat.md"
+echo "Installed harmonica-chat.md -> ~/.claude/commands/"
 
 echo ""
 echo "Installation complete! Set your API key:"
 echo "  export HARMONICA_API_KEY=\"hm_live_...\""
 echo ""
-echo "Then use /create-session in Claude Code to create sessions."
+echo "Then use /harmonica-chat in Claude Code to create sessions."

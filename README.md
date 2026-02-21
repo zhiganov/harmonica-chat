@@ -20,7 +20,7 @@ irm https://raw.githubusercontent.com/zhiganov/harmonica-chat/main/install.ps1 |
 
 ### Manual Installation
 
-Copy `create-session.md` to `~/.claude/commands/create-session.md`
+Copy `harmonica-chat.md` to `~/.claude/commands/harmonica-chat.md`
 
 ## Setup
 
@@ -46,7 +46,7 @@ Restart your terminal or run `source ~/.bashrc`.
 ## Usage
 
 ```
-/create-session "Session Topic" --goal "What this session should achieve"
+/harmonica-chat "Session Topic" --goal "What this session should achieve"
 ```
 
 This creates a session and returns a join URL you can share with participants.
@@ -68,16 +68,16 @@ This creates a session and returns a join URL you can share with participants.
 
 ```
 # Simple session
-/create-session "Team Retrospective" --goal "Review Q1 and identify improvements"
+/harmonica-chat "Team Retrospective" --goal "Review Q1 and identify improvements"
 
 # Chain sessions using prior context
-/create-session "Phase 2 Deep Dive" --goal "Evaluate solutions" --context-file ./SESSION.md
+/harmonica-chat "Phase 2 Deep Dive" --goal "Evaluate solutions" --context-file ./SESSION.md
 
 # Custom facilitation prompt
-/create-session "Expert Panel" --goal "Assess risks" --prompt-file ./facilitator.md --cross-pollination
+/harmonica-chat "Expert Panel" --goal "Assess risks" --prompt-file ./facilitator.md --cross-pollination
 
 # Interactive (asks for topic and goal)
-/create-session
+/harmonica-chat
 ```
 
 ### Environment variables

@@ -11,11 +11,11 @@ Write-Host "Installing harmonica-chat..."
 New-Item -ItemType Directory -Force -Path "$ClaudeDir\commands" | Out-Null
 
 # Download command file
-Invoke-WebRequest -Uri "$RepoUrl/create-session.md" -OutFile "$ClaudeDir\commands\create-session.md"
-Write-Host "Installed create-session.md -> ~/.claude/commands/"
+Invoke-WebRequest -Uri "$RepoUrl/harmonica-chat.md" -OutFile "$ClaudeDir\commands\harmonica-chat.md"
+Write-Host "Installed harmonica-chat.md -> ~/.claude/commands/"
 
 Write-Host ""
 Write-Host "Installation complete! Set your API key:"
 Write-Host '  $env:HARMONICA_API_KEY = "hm_live_..."'
 Write-Host ""
-Write-Host "Then use /create-session in Claude Code to create sessions."
+Write-Host "Then use /harmonica-chat in Claude Code to create sessions."
