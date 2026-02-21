@@ -2,7 +2,7 @@
 
 A conversational [Harmonica](https://harmonica.chat) companion for [Claude Code](https://claude.ai/code) that helps you design, create, and manage deliberation sessions.
 
-[Harmonica](https://harmonica.chat) is a structured deliberation platform where groups coordinate through AI-facilitated async conversations. You create a session with a topic and goal, share a link with participants, and each person has a private 1:1 conversation with an AI facilitator. Responses are then synthesized into actionable insights. [Learn more](https://docs.harmonica.chat).
+[Harmonica](https://harmonica.chat) is a structured deliberation platform where groups coordinate through AI-facilitated async conversations. You create a session with a topic and goal, share a link with participants, and each person has a private 1:1 conversation with an AI facilitator. Responses are then synthesized into actionable insights. [Learn more](https://help.harmonica.chat).
 
 Unlike a simple session creator, harmonica-chat is a guided session designer. It walks you through template selection, goal refinement, and context calibration — then handles the full session lifecycle from creation through follow-up.
 
@@ -85,7 +85,7 @@ Reads the project's CLAUDE.md and recent git history to auto-generate session co
 ## See Also
 
 - **[harmonica-mcp](https://github.com/harmonicabot/harmonica-mcp)** — MCP server for full API access to Harmonica sessions
-- **[Harmonica docs](https://docs.harmonica.chat)** — Platform documentation
+- **[Harmonica docs](https://help.harmonica.chat)** — Platform documentation
 - **[Harmonica](https://harmonica.chat)** — Main website
 
 ## License
