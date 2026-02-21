@@ -36,12 +36,21 @@ Your key starts with `hm_live_`. Copy it — it's only shown once.
 
 ### 3. Set the environment variable
 
+**macOS / Linux** — add to your shell profile (`~/.bashrc`, `~/.zshrc`, or `~/.profile`):
+
 ```bash
-# Add to ~/.bashrc, ~/.zshrc, or equivalent
 export HARMONICA_API_KEY="hm_live_your_key_here"
 ```
 
-Restart your terminal or run `source ~/.bashrc`.
+Then restart your terminal or run `source ~/.bashrc`.
+
+**Windows (PowerShell)** — set it permanently for your user account:
+
+```powershell
+[Environment]::SetEnvironmentVariable("HARMONICA_API_KEY", "hm_live_your_key_here", "User")
+```
+
+Then restart your terminal so Claude Code picks up the new variable.
 
 ## Usage
 

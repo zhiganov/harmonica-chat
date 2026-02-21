@@ -22,8 +22,10 @@ If it's not set (empty output), tell the user:
 >
 > 1. [Sign up for Harmonica](https://app.harmonica.chat) if you don't have an account (free)
 > 2. Go to your [Profile page](https://app.harmonica.chat/profile) → **API Keys** tab → **Generate API Key**
-> 3. Add to your shell profile: `export HARMONICA_API_KEY="hm_live_..."`
-> 4. Restart your terminal or run `source ~/.bashrc`
+> 3. Set the environment variable:
+>    - **macOS/Linux:** Add `export HARMONICA_API_KEY="hm_live_..."` to `~/.bashrc` or `~/.zshrc`
+>    - **Windows (PowerShell):** Run `[Environment]::SetEnvironmentVariable("HARMONICA_API_KEY", "hm_live_...", "User")`
+> 4. Restart your terminal
 
 Then stop.
 
