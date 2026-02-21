@@ -337,7 +337,7 @@ If the user says no, skip to Step 4.
 If the user says yes:
 
 1. Ask the user for their Harmonica API key: "To post to a community feed, I need your Harmonica API key (the `hm_live_...` key you used when setting up harmonica-mcp). Can you share it?" If the `HARMONICA_API_KEY` environment variable is set, check that first by running `echo "${HARMONICA_API_KEY:+set}"` — if set, use it without asking.
-2. Use the Bash tool to call community-admin's API with `curl`:
+2. Use the Bash tool to call community-admin's API with `curl`. Note: the community-admin URL below is hardcoded — if the Railway deployment changes, update it here.
 
 ```bash
 curl -s -H "Authorization: Bearer $HARMONICA_API_KEY" \
